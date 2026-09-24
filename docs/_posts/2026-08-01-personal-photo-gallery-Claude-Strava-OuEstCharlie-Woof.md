@@ -13,7 +13,7 @@ Personal photo galleries are a great asset; they gather and keep many memories o
 
 New AI tools and their integrations may change that. In the following tutorial, we show how to create, search and browse a photo library in Claude. Starting from a folder full of photos, use **Claude CoWork** to automatically sort photos into folders and add captions. This extra information comes from your **Strava activity log**. Eventually, the photos are indexed into **OuEstCharlie Woof** so that they are searched and browsed directly from Claude. Added information is co-located with photos; everything remains local to your machine.
 
-# Getting the pictures in Claude CoWork
+## Getting the pictures in Claude CoWork
 
 First import your photos from the camera or smartphone to a folder on your computer. As usual when using (AI) automation, **be sure to make a backup of this valuable asset**.
 
@@ -26,7 +26,7 @@ Below the prompt box, click on "Folder or project", select the folder in which t
 </video>
 
 
-# Sort the photos with Claude and Strava
+## Sort the photos with Claude and Strava
 
 Strava will supply the activity data used to auto-caption and organize your photos. Strava is added to Claude through a connector. Assuming you have a subscription with Strava, from the "Customize" section of the Claude settings, select the "Connectors" tab and search or add (depending on the Claude Desktop version) the Strava connector from the marketplace. You will need to log into Strava with your credentials.
  
@@ -60,7 +60,7 @@ When all clarifications are made, Claude generates the Python code for the folde
 
 Following user validation, Claude executes the plan and provides a summary of the changes. You may check the folder structure and the photo assignments.
 
-# Search and browse the photos in OuEstCharlie Woof
+## Search and browse the photos in OuEstCharlie Woof
 
 Now that photos are sorted in folders and contain context information, how are they accessed and explored? This is provided by the search and browse capabilities of a photo gallery. Search is selecting the best matching picture using metadata; it might combine several metadata fields and eventually sorts the results by relevance and the requested field. Browsing the gallery is essential for visual content like photos. It often comes as a grid following the query results, but it can also use other displays such as a geographic map. Claude does not provide those skills, or provides them poorly: search would probably mean a traversal of all the photos; browse is through the system preview app.
 
@@ -76,7 +76,7 @@ Claude will probably suggest the next logical step: index the library. This step
 
 Once the progress bar of the indexing reaches 100%, you may start the gallery exploration.
 
-# Wrap-up
+## Wrap-up
 
 With this tutorial, we have shown how to create a photo gallery from end to end in Claude Desktop CoWork. The gains are quite impressive compared to legacy systems:
 - Photos are sorted, and could be enriched, with the Strava activity log for context. The AI not only matches the photos and activities but also finds missing information and inconsistencies. Scripting this process and all the exceptions would require quite complex rules.
