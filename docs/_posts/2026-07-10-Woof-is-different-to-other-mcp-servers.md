@@ -4,6 +4,8 @@ title: "Woof Is Different From Other Photo MCP Servers"
 date: 2026-07-10
 image: /assets/screenshot_2026-07-10.jpg
 categories: [comparison]
+redirect_from:
+  - /ouestcharlie/2026/07/10/Woof-is-different-to-other-mcp-servers/
 ---
 
 You can already ask an AI assistant to "find my photos from Spain." Most photo MCP servers either stop there — you get a list of filenames or paths back as text — or you have to switch to another app to actually look at anything. What sets Woof apart is what happens the moment after the search: you *see* your photos, browse them, flip through them, without ever leaving the conversation.

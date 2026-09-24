@@ -5,6 +5,8 @@ date: 2026-07-31
 last_modified_at: 2026-08-03
 image: /assets/Claude+Strava+Woof/CreateYourPhotoGallery_ClaudeStravaWoof-Cover.jpg
 categories: [DIY, MacOs, Linux, Windows]
+redirect_from:
+  - /ouestcharlie/2026/07/31/personal-photo-gallery-Claude-Strava-OuEstCharly-Woof/
 ---
 
 Personal photo galleries are a great asset; they gather and keep many memories of our life. However, creating and managing one is also a challenge and consumes time. Digital photos have not changed much from the old paper photo albums: we must sort photos in albums or their digital equivalent (tags, smart albums), add captions, and name the people. We got accustomed to delegating this to packaged services like Google or Apple photo applications, but then [we get dependent on those: the metadata is created there and remains there]({% post_url 2026-04-10-why-we-need-to-move-past-gallery-apps %}).

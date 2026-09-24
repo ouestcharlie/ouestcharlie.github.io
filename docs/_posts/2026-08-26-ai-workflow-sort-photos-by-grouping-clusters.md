@@ -5,6 +5,8 @@ date: 2026-08-26
 last_modified_at: 2026-08-26
 image: /assets/screenshot_2026-04-11_vscode_interactive_skill.jpg
 categories: [tutorial workflow CoWork VSCode]
+redirect_from:
+  - /ouestcharlie/2026/08/26/ai-workflow-sort-photos-by-grouping-clusters/
 ---
 
 Most of a camera roll is family, home, holidays, and Saturdays you'd have to

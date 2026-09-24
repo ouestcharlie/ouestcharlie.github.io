@@ -5,6 +5,8 @@ date: 2026-04-10
 last_modified_at: 2026-07-10
 image: /assets/screenshot_2026-04-11.jpg
 categories: [vision]
+redirect_from:
+  - /ouestcharlie/2026/04/10/why-we-need-to-move-past-gallery-apps/
 ---
 
 You have thousands of photos. Memories of trips, birthdays, ordinary Tuesdays that somehow became extraordinary. You trusted an app to keep them organized — and it did, for a while. Then one day you decided to switch. And everything was gone.

@@ -4,6 +4,8 @@ title: "Step by Step Install of OuEstCharlie Woof in Claude Desktop"
 date: 2026-05-13
 image: /assets/ClaudeHowTo/016.png
 categories: [howto]
+redirect_from:
+  - /ouestcharlie/2026/05/13/claude-how-to-step-by-step/
 ---
 
 [Woof](https://github.com/ouestcharlie/ouestcharlie-woof/) is the frontend to OuEstCharlie, a modern photo gallery integrated into Claude Desktop (and other AI assistants). Woof is an MCP app: it acts both as a connector between your photo library and Claude, and as a user interface for browsing photos. Metadata flows through Claude while gallery and photo files remain local to your machine.
