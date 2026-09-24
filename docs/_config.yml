@@ -1,6 +1,6 @@
 title: OuEstCharlie Woof Blog
 description: Open, AI-native photo management — built on open standards and privacy
-baseurl: "/ouestcharlie"
+baseurl: ""
 url: "https://ouestcharlie.github.io"
 
 theme: minima
@@ -9,6 +9,9 @@ author: (c) Antoine Hue
 
 logo: /assets/woof_large_850.png
 image: /assets/woof_large_850.png
+
+webmaster_verifications:
+  google: QijdD5JeZEHGIIQqeqRfpfqpHdSptNb7PUGA_a6DAkY
 
 permalink: /:year/:month/:day/:title/
 
