@@ -30,7 +30,7 @@ System prerequisites (all install options):
 
 ## Install Woof in Claude
 
-The simplest way to install Woof is through the MCP bundle included in the [Woof releases](https://github.com/ouestcharlie/ouestcharlie-woof/releases): download the latest `ouestcharlie-woof-x.y.z.mcpb` file.
+The simplest way to install Woof is through the MCP bundle included in the [Woof releases](https://github.com/ouestcharlie/ouestcharlie-woof/releases): download the latest [{{ site.woof_mcpb_url | split: "/" | last }}]({{ site.woof_mcpb_url }}).
 
 > Double-click on the downloaded MCP bundle  will fail in latest versions of Claude
 

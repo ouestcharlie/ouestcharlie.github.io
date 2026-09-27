@@ -6,7 +6,7 @@
 
 ### Step 1 — Install Woof
 
-The easiest path is a single double-click. Download the latest `ouestcharlie-woof.mcpb` from the [Releases page](https://github.com/ouestcharlie/ouestcharlie-woof/releases) and open it. Claude Desktop will prompt you to install Woof in one click — no configuration file to edit, no terminal required.
+The easiest path is a single double-click. Download the latest [{{ site.woof_mcpb_url | split: "/" | last }}]({{ site.woof_mcpb_url }}) and open it. Claude Desktop will prompt you to install Woof in one click — no configuration file to edit, no terminal required.
 
 If you prefer a manual setup or use a different AI client (ChatGPT Desktop, Goose, VS Code Copilot), add Woof via `uvx`:
 
@@ -15,7 +15,7 @@ If you prefer a manual setup or use a different AI client (ChatGPT Desktop, Goos
   "mcpServers": {
     "woof": {
       "command": "uvx",
-      "args": ["--python", "3.12", "--from", "ouestcharlie-woof", "woof"]
+      "args": ["--python", "3.14", "--from", "ouestcharlie-woof", "woof-bridge"]
     }
   }
 }

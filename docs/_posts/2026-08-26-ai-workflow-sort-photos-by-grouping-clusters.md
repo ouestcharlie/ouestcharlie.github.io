@@ -4,7 +4,7 @@ title: "Use an AI workflow to sort and enrich photos by grouping them into clust
 date: 2026-08-26
 last_modified_at: 2026-08-26
 image: /assets/screenshot_2026-04-11_vscode_interactive_skill.jpg
-categories: [tutorial workflow CoWork VSCode]
+categories: [tutorial, workflow, CoWork, VSCode]
 redirect_from:
   - /ouestcharlie/2026/08/26/ai-workflow-sort-photos-by-grouping-clusters/
 ---

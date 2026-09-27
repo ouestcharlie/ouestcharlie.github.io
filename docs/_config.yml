@@ -10,6 +10,10 @@ author: (c) Antoine Hue
 logo: /assets/woof_large_850.png
 image: /assets/woof_large_850.png
 
+# Latest Woof bundle (MCPB) for Claude Desktop. The release asset name carries
+# the version, so update this at each Woof release.
+woof_mcpb_url: "https://github.com/ouestcharlie/ouestcharlie-woof/releases/download/v0.15.2/ouestcharlie-woof-0.15.2.mcpb"
+
 webmaster_verifications:
   google: QijdD5JeZEHGIIQqeqRfpfqpHdSptNb7PUGA_a6DAkY
 
