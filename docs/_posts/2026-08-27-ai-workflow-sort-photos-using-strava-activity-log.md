@@ -19,7 +19,7 @@ into folders and caption them, without you naming anything.
 [Step by Step Install of OuEstCharlie Woof in Claude Desktop]({{ site.baseurl }}{% post_url 2026-05-13-claude-how-to-step-by-step %}).
 
 **The photo workflow skills**, which come from the `woof-photo-workflows`
-plugin. They are packaged as a plugin in Woof, see also the [README](https://github.com/ouestcharlie/ouestcharlie-woof#optional-skill-plugin).
+plugin. They are packaged as a plugin in Woof, see also [Install skill plugin]({{ site.baseurl }}{% post_url 2026-04-01-ouestcharlie-woof-install-first-steps %}#install-skill-plugin-optional).
 
 **The [Strava MCP Connector](https://support.strava.com/en-us/articles/15401531-strava-mcp-connector)**,
 but only for the very last step, on your own photos. Everything before that

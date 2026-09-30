@@ -20,11 +20,11 @@ you've had enough. In the process, photo are enriched with descriptions and tags
 ## What you need
 
 **Woof, installed in your Assistant Desktop (Claude Desktop with license, VSCode Chat...)** — see
-the [Woof README](https://github.com/ouestcharlie/ouestcharlie-woof#installation)
-or the [Step by Step Install of OuEstCharlie Woof in Claude Desktop]({% post_url 2026-05-13-claude-how-to-step-by-step %}). 
+[How to install and first steps with Woof]({{ site.baseurl }}{% post_url 2026-04-01-ouestcharlie-woof-install-first-steps %})
+or the [Step by Step Install of OuEstCharlie Woof in Claude Desktop]({{ site.baseurl }}{% post_url 2026-05-13-claude-how-to-step-by-step %}). 
 
 **The photo workflow skills**, which come from the `woof-photo-workflows`
-plugin. They are packaged as a plugin in Woof, see also the [README](https://github.com/ouestcharlie/ouestcharlie-woof#optional-skill-plugin).
+plugin. They are packaged as a plugin in Woof, see also [Install skill plugin]({{ site.baseurl }}{% post_url 2026-04-01-ouestcharlie-woof-install-first-steps %}#install-skill-plugin-optional).
 
 ## A word on sidecars
 

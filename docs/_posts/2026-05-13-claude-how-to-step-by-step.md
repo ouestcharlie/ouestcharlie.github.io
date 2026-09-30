@@ -104,7 +104,7 @@ You can now search and browse your library using Claude's prompt for queries, an
 
 ## Alternative to bundle install in Claude Desktop
 
-If install based on the bundle (.mcpb file) fails, you will need to edit the developer configuration as explained in the [README of Woof](https://github.com/ouestcharlie/ouestcharlie-woof#option-b--manual-uvx-configuration).
+If install based on the bundle (.mcpb file) fails, you will need to edit the developer configuration as explained in the [How to install and first steps with Woof]({{ site.baseurl }}{% post_url 2026-04-01-ouestcharlie-woof-install-first-steps %}#option-b--manual-uvx-configuration).
 
 ## Troubleshooting
 
