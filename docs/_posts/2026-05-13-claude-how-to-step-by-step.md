@@ -16,7 +16,7 @@ Woof is a local MCP server connected to Claude via the STDIO protocol. This mean
 - Claude launches and stops Woof
 - No specific authentication is required, since both application processes are coupled
 
-Woof uses Python for the server, JavaScript for the gallery frontend, and Rust for image processing. Security of the code and dependencies is continuously checked by GitHub. You can check the current status on the [security page of Woof](https://github.com/ouestcharlie/ouestcharlie-woof/security/dependabot).
+Woof uses Python for the server, JavaScript for the gallery frontend, and Rust for image processing. Security of the code and dependencies is continuously checked by GitHub. You can check the current status on the [security page of Woof](https://github.com/ouestcharlie/ouestcharlie-woof/security).
 
 ## Pre-requisites
 

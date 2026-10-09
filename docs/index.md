@@ -10,4 +10,4 @@ OuEstCharlie Woof is the photo and video gallery companion to your your AI assis
 
 No cloud subscription. No proprietary lock-in. Your library, your way.
 
-<p align="center">Try Woof today — get it on <a href="https://github.com/ouestcharlie/ouestcharlie-woof">GitHub</a>.</p>
+<p align="center">Try Woof today — see <a href="{{ "/2026/04/01/ouestcharlie-woof-install-first-steps/" | relative_url }}">how to install and take your first steps</a>.</p>

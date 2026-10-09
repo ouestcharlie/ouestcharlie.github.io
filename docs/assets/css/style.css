@@ -13,6 +13,21 @@
   width: auto;
 }
 
+.oec-github {
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 54px;
+  margin-left: 15px;
+  color: #828282;
+  opacity: 0.7;
+}
+
+.oec-github:hover {
+  color: #2a6ebb;
+  opacity: 1;
+}
+
 .oec-footer {
   border-top: 3px solid #2a6ebb;
 }
