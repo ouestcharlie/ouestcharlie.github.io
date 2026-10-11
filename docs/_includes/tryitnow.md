@@ -1,6 +1,6 @@
 ## Try It Today
 
-<p align="center"><img src="{{ "/assets/woof_large_850.png" | relative_url }}" alt="Woof" height="200"></p>
+<p align="center"><img src="{{ "/assets/woof_large_400.png" | relative_url }}" alt="Woof" width="200" height="200"></p>
 
 **[Woof](https://github.com/ouestcharlie/ouestcharlie-woof)** — the MCP app for OuEstCharlie — is available now as an early preview. Here is how to go from zero to browsing your library in three steps.
 

@@ -5,7 +5,9 @@ url: "https://ouestcharlie.github.io"
 
 theme: minima
 
-author: (c) Antoine Hue
+author:
+  name: Antoine Hue
+  url: https://github.com/tonio73
 
 logo: /assets/woof_large_850.png
 image: /assets/woof_large_850.png

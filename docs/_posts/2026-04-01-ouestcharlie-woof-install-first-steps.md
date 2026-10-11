@@ -3,11 +3,11 @@ layout: post
 title: "How to install and first steps with Woof"
 date: 2026-04-01
 last_modified_at: 2026-09-26
-image: /assets/Woof_Search_Browse_2026-07-10.mp4
+image: /assets/OuEstCharlieWoof_2026-09-01.jpg
 categories: [how-to, install]
 ---
 
-OuEstCharlie Woof is the photo and video gallery companion to your your AI assistant (Claude Desktop, Goose, VS Code / GitHub Copilot...). It complements those powerful tools with a searchable gallery. Your photos and videos remain exactly where they are — on your own drives (local or mounted).
+OuEstCharlie Woof is the photo and video gallery companion to your AI assistant (Claude Desktop, Goose, VS Code / GitHub Copilot...). It complements those powerful tools with a searchable gallery. Your photos and videos remain exactly where they are — on your own drives (local or mounted).
 
 Woof runs as a local [MCP](https://modelcontextprotocol.io/) server. It connects to your AI desktop client (Claude Desktop, Goose...) and exposes your photo library as a set of tools.
 
