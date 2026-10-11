@@ -12,6 +12,7 @@ OuEstCharlie Woof is the photo and video gallery companion to your AI assistant 
 
 No cloud subscription. No proprietary lock-in. Your library, your way.
 
-OuEstCharlie Woof is open source and published under the MIT license.
+Woof never touches your original files and works with the folders you already have. Descriptions, tags and ratings are kept in standard XMP sidecars next to your photos, readable by Lightroom and darktable, so your organisation outlives any app ([why it matters]({{ "/2026/04/10/why-we-need-to-move-past-gallery-apps/" | relative_url }})). Search by description, tags, date, place or camera, browse in a grid or full screen, and let [AI workflows sort and caption your photos]({{ "/2026/08/26/ai-workflow-sort-photos-by-grouping-clusters/" | relative_url }}). Free and open source (MIT).
 
 <p align="center"><b>Try Woof today — see <a href="{{ "/2026/04/01/ouestcharlie-woof-install-first-steps/" | relative_url }}">how to install and take your first steps</a>.</b></p>
+

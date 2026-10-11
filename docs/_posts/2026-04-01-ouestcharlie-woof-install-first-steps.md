@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install and first steps with Woof"
+title: "How to install and first steps with OuEstCharlie Woof"
 description: "Install OuEstCharlie Woof in Claude Desktop, VS Code Copilot or Goose, add the photo workflow skills, then register, index and browse your photo library."
 date: 2026-04-01
 last_modified_at: 2026-09-26

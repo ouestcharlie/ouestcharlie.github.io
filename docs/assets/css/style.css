@@ -31,3 +31,11 @@
 .oec-footer {
   border-top: 3px solid #2a6ebb;
 }
+
+.post-list .post-link {
+  font-size: 18px;
+}
+
+.post-list > li {
+  margin-bottom: 10px;
+}

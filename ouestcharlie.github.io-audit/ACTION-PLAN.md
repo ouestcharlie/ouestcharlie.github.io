@@ -18,7 +18,7 @@ Committed in `7a192cc` (not pushed yet): social image, author, typo, logo, homep
 - ✅ **darktable post** (2026-10-20, unpublished): description, real cover/social image, storage-settings screenshot, setting names aligned with the darktable manual, no TODOs left.
 
 ## High (this week)
-1. **Homepage**: ~~add an H1~~ (done), a 40–60 word definition of Woof, a features/clients/privacy section (~400 words), a "Start here" list of links, and `image:` in `index.md` front matter. *1–2 h*
+1. **Homepage**: ~~add an H1~~, ~~a 40–60 word definition of Woof, a principles/features section~~ (done: 430 words, links to the "Why" post and both workflow tutorials). Remaining: `image:` in `index.md` front matter, and optionally a "Start here" link to the step-by-step how-to and the comparison post. *15 min*
 2. **Optional: `apple-touch-icon.png`** (180 px, from `woof_icon_800.png`) for iOS home-screen bookmarks. *5 min*
 
 ## Medium (this month)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use an AI workflow to sort and enrich photos by grouping them into clusters"
+title: "AI workflow to sort and enrich photos by grouping them into clusters"
 description: "Sort a camera roll with an AI workflow: group photos by day, name the biggest clusters first, and save captions and tags to XMP sidecars you approve."
 date: 2026-08-26
 last_modified_at: 2026-08-26
