@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Step by Step Install of OuEstCharlie Woof in Claude Desktop"
+description: "Screenshot walkthrough: install the Woof bundle in Claude Desktop, register and index a photo library, run a first search, and fix common install issues."
 date: 2026-05-13
 image: /assets/ClaudeHowTo/016.png
 categories: [howto]

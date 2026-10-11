@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Create your personal photo gallery with Claude, Strava and OuEstCharlie Woof"
+description: "Sort a folder of photos into outing folders with Claude CoWork and Strava, caption them, then search and browse the result in OuEstCharlie Woof."
 date: 2026-07-31
 last_modified_at: 2026-08-03
 image: /assets/Claude+Strava+Woof/CreateYourPhotoGallery_ClaudeStravaWoof-Cover.jpg

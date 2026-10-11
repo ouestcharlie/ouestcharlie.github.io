@@ -1,0 +1,265 @@
+{
+ "summary": {
+  "health_score": 70,
+  "business_type": "Open-source software product + tutorial blog",
+  "top_findings": [
+   "Install post og:image is a 9 MB MP4",
+   "Author/publisher entity is '(c) Antoine Hue'",
+   "All 8 meta descriptions 239-534 chars",
+   "Homepage: no H1, 173 words, no og:image, 113-char title",
+   "Mobile lab LCP 5.2 s (home) / 10.4 s (how-to): 669 KB logo on every page"
+  ],
+  "quick_wins": [
+   "Use poster JPG as image: on install post",
+   "Structured author/social in _config.yml",
+   "Add description: front matter",
+   "Small logo + favicon with width/height",
+   "Add 404.html and llms.txt"
+  ],
+  "baseline_health_score": 64,
+  "progress_note": "2026-10-11 re-measure on local build (commit 7a192cc + uncommitted descriptions): home LCP 5.2s->1.4s (684->77 KiB), how-to 10.4s->5.2s; issues 1-3 fixed, 4-5 partial."
+ },
+ "categories": [
+  {
+   "name": "Technical SEO",
+   "score": 80,
+   "what_works": [
+    "HTTPS+HSTS",
+    "Valid sitemap and robots.txt",
+    "Self-canonicals",
+    "Redirects for old URLs",
+    "RSS feed"
+   ],
+   "findings": [
+    {
+     "title": "No custom 404 page",
+     "severity": "Medium",
+     "description": "/404.html returns 404",
+     "recommendation": "Add docs/404.html"
+    },
+    {
+     "title": "Mixed-case URLs",
+     "severity": "Low",
+     "description": "Lowercase variants 404",
+     "recommendation": "Lowercase slugs for new posts"
+    },
+    {
+     "title": "10-minute cache TTL",
+     "severity": "Low",
+     "description": "GitHub Pages default",
+     "recommendation": "Reduce asset weight; optional CDN"
+    }
+   ],
+   "baseline_score": 80
+  },
+  {
+   "name": "Content Quality",
+   "score": 70,
+   "what_works": [
+    "First-hand long-form tutorials",
+    "Honest comparison article"
+   ],
+   "findings": [
+    {
+     "title": "Thin homepage",
+     "severity": "High",
+     "description": "173 words",
+     "recommendation": "Expand to 400-600 words with definition, features, start-here links"
+    },
+    {
+     "title": "No About/author page",
+     "severity": "High",
+     "description": "No E-E-A-T anchor",
+     "recommendation": "Add /about/"
+    },
+    {
+     "title": "Typo 'your your'",
+     "severity": "Low",
+     "description": "index.md and install post",
+     "recommendation": "Fix"
+    }
+   ],
+   "baseline_score": 68
+  },
+  {
+   "name": "On-Page SEO",
+   "score": 68,
+   "what_works": [
+    "Clean heading hierarchy on posts"
+   ],
+   "findings": [
+    {
+     "title": "Meta descriptions too long",
+     "severity": "High",
+     "description": "8/8 outside 120-160",
+     "recommendation": "Add description: front matter"
+    },
+    {
+     "title": "Titles too long",
+     "severity": "Medium",
+     "description": "5/8 over 60 chars, home 113",
+     "recommendation": "Shorten"
+    },
+    {
+     "title": "Homepage missing H1",
+     "severity": "High",
+     "description": "Starts at h2 Posts",
+     "recommendation": "Add H1"
+    },
+    {
+     "title": "Weak internal linking, empty nav",
+     "severity": "Medium",
+     "description": "Some posts link to 1 article",
+     "recommendation": "Related posts + header_pages"
+    }
+   ],
+   "baseline_score": 55
+  },
+  {
+   "name": "Schema / Structured Data",
+   "score": 65,
+   "what_works": [
+    "BlogPosting and WebSite auto-generated"
+   ],
+   "findings": [
+    {
+     "title": "Author/publisher '(c) Antoine Hue'",
+     "severity": "High",
+     "description": "All pages",
+     "recommendation": "Structured author + social in _config.yml"
+    },
+    {
+     "title": "BlogPosting image is MP4",
+     "severity": "High",
+     "description": "Install post",
+     "recommendation": "Use poster JPG"
+    },
+    {
+     "title": "No SoftwareApplication",
+     "severity": "Medium",
+     "description": "Product has no entity",
+     "recommendation": "Add JSON-LD"
+    }
+   ],
+   "baseline_score": 50
+  },
+  {
+   "name": "Performance (CWV)",
+   "score": 70,
+   "what_works": [
+    "CLS ~0",
+    "TBT 0 ms",
+    "FCP 0.9 s"
+   ],
+   "findings": [
+    {
+     "title": "Slow mobile LCP",
+     "severity": "High",
+     "description": "5.2 s home, 10.4 s how-to (lab)",
+     "recommendation": "Small logo, compress images, lazy-load, preload=none on videos"
+    }
+   ],
+   "baseline_score": 55
+  },
+  {
+   "name": "AI Search Readiness",
+   "score": 62,
+   "what_works": [
+    "AI crawlers allowed",
+    "Static HTML",
+    "Task-shaped headings"
+   ],
+   "findings": [
+    {
+     "title": "No llms.txt",
+     "severity": "Medium",
+     "description": "404",
+     "recommendation": "Add docs/llms.txt"
+    },
+    {
+     "title": "Weak entity signals",
+     "severity": "Medium",
+     "description": "No about, no product schema",
+     "recommendation": "See schema/content fixes"
+    }
+   ],
+   "baseline_score": 60
+  },
+  {
+   "name": "Images",
+   "score": 62,
+   "what_works": [
+    "Alt text on all images"
+   ],
+   "findings": [
+    {
+     "title": "Oversized images",
+     "severity": "Medium",
+     "description": "669 KB logo, 936 KB PNG",
+     "recommendation": "Resize/WebP"
+    },
+    {
+     "title": "No width/height, invalid max-height attr",
+     "severity": "Low",
+     "description": "post-image.html",
+     "recommendation": "Fix include"
+    },
+    {
+     "title": "No lazy loading",
+     "severity": "Low",
+     "description": "13 eager screenshots on how-to",
+     "recommendation": "loading=lazy"
+    }
+   ],
+   "baseline_score": 55
+  }
+ ],
+ "action_plan": {
+  "phases": [
+   {
+    "name": "Phase 1: Critical Fixes",
+    "timeframe": "Week 1",
+    "items": [
+     "Install post image",
+     "Author entity",
+     "Post descriptions",
+     "Homepage H1+content",
+     "Small logo/favicon"
+    ]
+   },
+   {
+    "name": "Phase 2: High-Impact Improvements",
+    "timeframe": "Weeks 2-3",
+    "items": [
+     "Shorten titles",
+     "About page + nav",
+     "Related posts",
+     "Image compression + lazy",
+     "404 + llms.txt",
+     "SoftwareApplication schema"
+    ]
+   },
+   {
+    "name": "Phase 3: Content & Authority",
+    "timeframe": "Month 2",
+    "items": [
+     "VideoObject / YouTube",
+     "MCP directory listings",
+     "Contrast fixes"
+    ]
+   },
+   {
+    "name": "Phase 4: Monitoring & Iteration",
+    "timeframe": "Ongoing",
+    "items": [
+     "GSC reindex",
+     "Re-run Lighthouse vs baseline"
+    ]
+   }
+  ]
+ },
+ "artifacts": {
+  "findings_dir": "findings/",
+  "screenshots_dir": "screenshots/"
+ }
+}

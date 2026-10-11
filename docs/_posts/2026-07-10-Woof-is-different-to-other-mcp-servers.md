@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Woof Is Different From Other Photo MCP Servers"
+description: "How Woof compares with Immich, Apple Photos and Google Photos MCP servers on search, in-chat browsing, credential sharing and metadata editing."
 date: 2026-07-10
 image: /assets/screenshot_2026-07-10.jpg
 categories: [comparison]
