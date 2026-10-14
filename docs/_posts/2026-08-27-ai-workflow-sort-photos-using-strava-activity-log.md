@@ -4,7 +4,7 @@ title: "AI workflow to sort and enrich photos using your Strava activity log"
 description: "Let Claude match photo timestamps to your Strava hikes, rides and ski tours, then file photos into per-outing folders and caption them in XMP sidecars."
 date: 2026-08-27
 last_modified_at: 2026-08-31
-image: /assets/screenshot_2026-08-26_ClaudeCoWork_Woof-sort-enrich-strava.jpg
+image: /assets/Claude+Strava+WoofSkill/woof_claude_strava_activity_log.png
 categories: [tutorial, workflow, CoWork, Strava]
 redirect_from:
   - /ouestcharlie/2026/08/27/ai-workflow-sort-photos-using-strava-activity-log/
