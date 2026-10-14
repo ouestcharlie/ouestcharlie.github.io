@@ -8,8 +8,6 @@ image: /assets/darktable+Woof/Woof-darktable-lighttable_side-by-side.jpg
 categories: [tutorial, darktable, workflow]
 ---
 
-{% include post-image.html src="/assets/darktable+Woof/Woof-darktable-lighttable_side-by-side.jpg" alt="The Woof gallery in Claude (left) and the darktable lighttable (right) showing the same photo folder" %}
-
 darktable is a great place to develop a photo. Finding one again is harder:
 "the sunset over the lake, two summers ago, the one I rated well" means
 clicking through film rolls and collection filters.

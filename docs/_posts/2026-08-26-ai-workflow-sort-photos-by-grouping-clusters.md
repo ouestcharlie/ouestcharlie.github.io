@@ -124,7 +124,7 @@ That's the model: rules for the common case, overrides for everything else.
 Resist adding configuration for a one-off — an override you can read in a plan
 is clearer than a rule you'll have forgotten in a year.
 
-{% include post-image.html src="/assets/screenshot_2026-04-11_vscode_interactive_skill.jpg" alt="Automatically cluster, review in the OuEstCharlie Woof gallery and sort photos from VSCode Chat" %}
+<!--{% include post-image.html src="/assets/screenshot_2026-04-11_vscode_interactive_skill.jpg" alt="Automatically cluster, review in the OuEstCharlie Woof gallery and sort photos from VSCode Chat" %}-->
 
 ## Review the plan properly
 

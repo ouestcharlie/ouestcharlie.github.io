@@ -3,7 +3,7 @@ description: Local photo gallery, AI-native — built on open standards (XMP, MC
 baseurl: ""
 url: "https://ouestcharlie.github.io"
 
-theme: minima
+theme: awesome-jekyll-theme
 
 author:
   name: Antoine Hue
@@ -32,9 +32,26 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-archives
 
 defaults:
   - scope:
       path: "google*.html"
     values:
       sitemap: false
+  - scope:
+      type: posts
+    values:
+      author: Antoine Hue
+
+# awesome-jekyll-theme
+contact_channels_section: false
+contact_channels:
+  github: "https://github.com/ouestcharlie/ouestcharlie-woof"
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: blog
+  permalinks:
+    category: "/category/:name/"

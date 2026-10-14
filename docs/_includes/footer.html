@@ -1,29 +1,49 @@
-<footer class="site-footer oec-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+{% capture currentYear %}{{ 'now' | date: '%Y' }}{% endcapture %}
 
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              &copy; {{ site.author.name | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {%- endif -%}
-        </ul>
-        {%- include social.html -%}
-        <ul class="social-media-list">
-          <li><a href="https://github.com/ouestcharlie/ouestcharlie-woof"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">ouestcharlie-woof</span></a></li>
-        </ul>
+<footer class="w-full bottom-0">
+  <hr class="my-8 border-zinc-200 dark:border-neutral-700" />
+  <div class="container mx-auto">
+    <div class="flex flex-wrap text-left">
+      <div class="w-full md:w-6/12 md:px-4">
+        <p class="text-lg font-semibold">
+          {{ site.data[site.active_lang].strings.footer.title | default:
+          site.data['en'].strings.footer.title}}
+        </p>
+        <p class="font-mulish dark:text-zinc-300 mt-2 mb-2">
+          {{ site.data[site.active_lang].strings.footer.description | default:
+          site.data['en'].strings.footer.description}}
+        </p>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="w-full md:w-6/12 md:text-right py-4 md:py-0">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 md:px-4 ml-auto">
+            <span class="text-lg block text-gray-800 dark:text-neutral-200 mb-2">
+              {{ site.data[site.active_lang].strings.footer.pages | default:
+              site.data['en'].strings.footer.pages}}
+            </span>
+            <ul>
+              {% for footer_page in site.pages %} {% if footer_page.footer %}
+              <li>
+                <a class="font-mulish text-slate-600 hover:text-sky-400 dark:text-neutral-300 dark:hover:text-slate-200"
+                  href="{{ footer_page.url | relative_url }}">{{ footer_page.title | default: footer_page.name }}</a>
+              </li>
+              {% endif %} {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="font-mulish flex flex-wrap items-center md:justify-between justify-center my-8">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <a href="{{ '/feed.xml' | relative_url }}" class="p-2" aria-label="RSS feed" title="RSS feed">
+          <svg fill="currentColor" viewBox="-3 0 19 19" xmlns="http://www.w3.org/2000/svg" class="w-6 mx-auto" aria-hidden="true">
+            <path
+              d="M.926 12.818a1.403 1.403 0 1 1 0 1.984 1.402 1.402 0 0 1 0-1.984zm10.531 2.357a1.03 1.03 0 0 1-1.029-1.03 8.775 8.775 0 0 0-.694-3.438A8.826 8.826 0 0 0 1.591 5.31a1.03 1.03 0 1 1 0-2.059 10.817 10.817 0 0 1 4.24.857 10.893 10.893 0 0 1 3.463 2.334 10.867 10.867 0 0 1 3.19 7.703 1.027 1.027 0 0 1-1.027 1.029zm-4.538 0a1.03 1.03 0 0 1-1.029-1.03 4.297 4.297 0 0 0-4.299-4.298 1.03 1.03 0 0 1 0-2.059 6.362 6.362 0 0 1 5.857 3.883 6.298 6.298 0 0 1 .5 2.475 1.03 1.03 0 0 1-1.029 1.029z" />
+          </svg>
+        </a>
+        <div class="text-sm font-semibold py-1">
+          &copy; {{ currentYear }} {{ site.author.name }}
+        </div>
       </div>
     </div>
   </div>
