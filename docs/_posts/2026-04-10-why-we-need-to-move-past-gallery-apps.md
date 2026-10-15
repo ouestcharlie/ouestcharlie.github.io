@@ -4,7 +4,7 @@ title: "Why It's Time to Move Past iPhoto, Google Photos, and OneDrive"
 description: "Google Photos and iPhoto lock your albums, captions and faces in their database. Why open XMP sidecars and your AI assistant make a better photo library."
 date: 2026-04-10
 last_modified_at: 2026-07-10
-image: /assets/screenshot_2026-04-11.jpg
+image: /assets/screenshot_vscode_alpinism_2026-10-15.jpg
 categories: [vision]
 redirect_from:
   - /ouestcharlie/2026/04/10/why-we-need-to-move-past-gallery-apps/

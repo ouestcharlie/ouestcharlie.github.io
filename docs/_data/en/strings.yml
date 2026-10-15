@@ -1,0 +1,14 @@
+home:
+  contact_me: "Get Woof on GitHub:"
+  see_more_posts: "See all posts ->"
+  projects_title: "Projects"
+  see_more_projects: "See more projects ->"
+footer:
+  title: "OuEstCharlie Woof"
+  description: "The AI native photo gallery, free and open source (MIT)."
+  pages: Pages
+blog:
+  read_more: "Read more ->"
+  more_articles: "More posts"
+post:
+  share: Like it? Share it!

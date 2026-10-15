@@ -4,7 +4,7 @@ title: "Step by Step Install of OuEstCharlie Woof in Claude Desktop"
 description: "Screenshot walkthrough: install the Woof bundle in Claude Desktop, register and index a photo library, run a first search, and fix common install issues."
 date: 2026-05-13
 image: /assets/ClaudeHowTo/016.png
-categories: [howto]
+categories: [install, how-to]
 redirect_from:
   - /ouestcharlie/2026/05/13/claude-how-to-step-by-step/
 ---
@@ -99,7 +99,7 @@ Claude and Woof are ready to start photo search and browsing.
 
 You can now search and browse your library using Claude's prompt for queries, and the Woof UI to explore results — either inline in the chat or in full-screen:
 
-{% include post-image.html src="/assets/ClaudeHowTo/016.png" alt="Search and Browse using Woof in Claude Desktop" %}
+<!--{% include post-image.html src="/assets/ClaudeHowTo/016.png" alt="Search and Browse using Woof in Claude Desktop" %}-->
 
 ---
 

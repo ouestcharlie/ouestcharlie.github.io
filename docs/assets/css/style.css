@@ -1,41 +1,23 @@
-.oec-header {
-  border-bottom: 3px solid #2a6ebb;
+/* Custom styles on top of awesome-jekyll-theme (Tailwind, pre-built) */
+
+/* Tailwind typography wraps inline code in literal backticks */
+.prose :where(code):not(:where(pre *))::before,
+.prose :where(code):not(:where(pre *))::after {
+  content: none;
 }
 
-.oec-brand {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
+/* Home page text section spanning the container width */
+.oec-full-width {
+  max-width: none;
 }
 
-.oec-brand-logo {
-  height: 32px;
-  width: auto;
+/* Woof logo centered under the home page intro */
+.prose img.oec-hero-logo {
+  display: block;
+  margin: 0 auto;
 }
 
-.oec-github {
-  float: right;
-  display: flex;
-  align-items: center;
-  height: 54px;
-  margin-left: 15px;
-  color: #828282;
-  opacity: 0.7;
-}
-
-.oec-github:hover {
-  color: #2a6ebb;
-  opacity: 1;
-}
-
-.oec-footer {
-  border-top: 3px solid #2a6ebb;
-}
-
-.post-list .post-link {
-  font-size: 18px;
-}
-
-.post-list > li {
-  margin-bottom: 10px;
+/* Home page blog listing: tight above (follows the intro text), roomy below */
+.oec-blog-list {
+  padding-bottom: 4rem;
 }

@@ -5,7 +5,7 @@ description: "Sort a folder of photos into outing folders with Claude CoWork and
 date: 2026-07-31
 last_modified_at: 2026-08-03
 image: /assets/Claude+Strava+Woof/CreateYourPhotoGallery_ClaudeStravaWoof-Cover.jpg
-categories: [tutorial, MacOs, Linux, Windows]
+categories: [tutorial, Strava]
 redirect_from:
   - /ouestcharlie/2026/07/31/personal-photo-gallery-Claude-Strava-OuEstCharly-Woof/
   - /2026/07/31/personal-photo-gallery-Claude-Strava-OuEstCharly-Woof/
